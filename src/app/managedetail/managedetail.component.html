@@ -1,0 +1,32 @@
+<div class="container-fuild">
+    <div class="row">
+        <div class="col-md-4"  *ngFor="let d of detail">
+            
+                <div class="card">
+                    <div class="card-header">
+                        <img [src]="d.studentimage" height="250px" width="250px" card="card-img-top" alt="">
+                    </div>
+                    <div class="card-body" *ngIf="!d.studentedit">
+                        <h4 class="card-title">ID :{{d.studentname}}</h4>
+                        <p class="card-text">Address : {{d.studentaddress}}</p  >
+                        <p class="card-text">Fee : {{d.studentfee | currency:'INR '}}</p>
+                        <p class="card-text">Contact : {{d.studentcontact}}</p>
+                    </div>
+                    <div class="card-body" *ngIf="d.studentedit">
+                        <input type="text" name="d" [(ngModel)]="d.studentaddress">
+                        <input type="text" name="d" [(ngModel)]="d.studentfee">
+                        <input type="text" name="d" [(ngModel)]="d.studentcontact">
+                    </div>
+                    <div>
+                        <button class="btn btn-warning" *ngIf="!d.studentedit" (click)="toUpdate(d)">Edit</button>
+                        <button class="btn btn-primary" *ngIf="d.studentedit" (click)="toSave(d)">Save</button>
+                        <button class="btn btn-danger rock" (click)="delete(d)">Delete</button>
+                    </div>
+                </div>  
+            
+        </div>
+    </div>
+</div>
+
+
+

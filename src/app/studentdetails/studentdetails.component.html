@@ -1,0 +1,25 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-8" *ngFor="let d of details">    
+            <div class="card">
+                <div class="card-header">
+                    <img [src]="d.studentimage" class="card-img-side" height="200" width="200">
+                    <div class="card-body">
+                        <h4 class="card-title">Student Id : {{d.studentid}}</h4>
+                        <p class="card-text">Name : {{d.studentname}}</p>
+                        <p class="card-text">Address : {{d.studentaddress}}</p>
+                        <p class="card-text">Fee : {{d.studentfee | currency:'INR '}}</p>
+                        <p class="card-text">Contact : {{d.studentcontact}}</p>
+                    </div>
+                    <div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="img col-md-3">
+            <img
+                src="https://img.freepik.com/premium-vector/students-man-woman-with-backpacks-back-view-isolated-flat-cartoon-characters-vector-university_316839-1183.jpg">
+        </div>
+    </div>
+</div>

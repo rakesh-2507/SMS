@@ -1,0 +1,24 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 hello">
+                <nav class="navbar navbar-expand-md navbar-dark flex-md-column flex-row bg-rp align-items-start">
+                <a class="navbar-brand" href="#">{{username|uppercase}}'s Dashboard<br>
+                <img src="assets/studenticon.png" width="250" height="150" class="img" >
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="sidebar">
+                    <ul class="flex-md-column flex-row navbar-nav w-100 justify-content-between">
+                        <li class="nav-item"><a routerLink="/user/home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a routerLink="/user/employee" class="nav-link">Employee</a></li>
+                        <li class="nav-item"><a routerLink="/user/studentdetails" class="nav-link">Student Details</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="col-md-9 hello2">
+            <router-outlet></router-outlet>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,37 @@
+@media  only screen  and (min-width:700px){
+.navbar{
+    width: 250px;
+    padding: 15px;
+    padding-bottom: 300px;
+    position: absolute; 
+    margin-left: -10px;
+    height:750px;
+}
+.img{
+    margin-left:-25px;
+    margin-top: 20px;
+    width:200px;
+    height: 200px;
+}
+.nav-item{
+    padding-top: 10px;
+    margin-left: 30px;
+    border: 2px black;
+    border-color: aqua;
+    border-bottom-style: groove;
+    padding: 5px;
+
+}
+.navbar-brand{
+    margin-left: 5px;
+    font-size: x-large;
+}
+.hello{
+    position: fixed;
+}
+.hello2{
+    position: relative;
+    left: 240px;
+    
+} 
+}

@@ -1,0 +1,31 @@
+
+.navbar{
+    width: 250px;
+    padding: 15px;
+    padding-bottom: 300px;
+    position: absolute;
+    margin-left: -12px;
+    height:750px;
+}.bg-rp{
+    background-color:black;
+}
+.img{
+    margin-left:-35px;
+    margin-top: 20px;
+}
+.nav-item{
+    padding-top: 10px;
+    margin-left: 30px;
+
+}
+.navbar-brand{
+    margin-left: 5px;
+    font-size: x-large;
+}
+.hello{
+    position: fixed;
+}
+.hello2{
+    position: relative;
+    left: 260px;
+}

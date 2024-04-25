@@ -1,0 +1,98 @@
+.wel {
+    margin-top: 200px;
+    color: white;
+    font-size: xx-large;
+    width: 400px;
+    text-shadow: 2px 2px 5px cyan;
+}
+
+.log {
+    margin-left: 0px;
+    width: 300px;
+    color: white;
+    font-size: xx-large;
+
+}
+
+#pass,
+#user {
+    color: white;
+    font-size: x-large;
+    margin-top: 30px;
+    text-shadow: 2px 2px 5px black;
+    margin-left: 0px;
+
+}
+
+.form-label1 {
+    padding-bottom: 30px;
+    margin-left: 300px;
+}
+
+#pass {
+    padding-bottom: 25px;
+    margin-left: 0px;
+
+}
+
+.btn.btn-primary {
+    margin-top: 50px;
+    margin-left: 0px;
+
+}
+
+.btn.btn-warning {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width:700px) {
+    .wel {
+        margin-top: -600px;
+        color: white;
+        font-size: xx-large;
+        width: 400px;
+        text-shadow: 2px 2px 5px cyan;
+        margin-left: 300px;
+    }
+
+    .form-label1 {
+        padding-bottom: 30px;
+        margin-left: 300px;
+    }
+
+    #pass,
+    #user {
+        color: white;
+        font-size: x-large;
+        margin-top: 30px;
+        text-shadow: 2px 2px 5px black;
+        margin-left: 300px;
+    }
+
+    #pass {
+        padding-bottom: 25px;
+        margin-left: 300px;
+    }
+
+    .btn.btn-primary {
+        margin-top: 50px;
+        margin-left: 320px;
+    }
+
+    .btn.btn-warning {
+        margin-left: 450px;
+        margin-top: -60px;
+    }
+
+    .log {
+        margin-left: 300px;
+        width: 300px;
+        color: white;
+        font-size: xx-large;
+    }
+
+    input {
+        margin-left: 300px;
+    }
+}
